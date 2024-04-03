@@ -1,0 +1,21 @@
+base de datos 
+
+encender
+sudo docker run --name mysql-llibres -it -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=dbapi -e MYSQL_USER=usuari -e MYSQL_PASSWORD=password -p 3306:3306 mysql
+
+
+I aturar-la i destuir-la amb
+```bash
+docker stop mysql-llibres 
+
+docker rm mysql-llibres 
+```
+
+En cas de no eliminar-se ho podem forçar amb
+```bash
+docker rm -f mysql-llibres 
+
+
+
+./run.sh com.project.Main
+```
