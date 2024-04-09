@@ -19,3 +19,5 @@ docker rm -f mysql-llibres
 
 ./run.sh com.project.Main
 ```
+sudo docker run --name mysql-llibres -it -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=dbapi -e MYSQL_USER=usuari -e MYSQL_PASSWORD=password -p 3306:3306 mysql 
+docker exec -i mysql-llibres mysql -uusuari -ppassword < dbSchool.sql

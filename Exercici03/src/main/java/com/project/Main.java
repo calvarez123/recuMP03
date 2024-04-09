@@ -50,7 +50,7 @@ public class Main {
         afegirFauna("Lleopard de les neus", "Panthera uncia", idXina, "Terreny rocos muntanyenc", "Felí de muntanya adaptat a viure en l'altitud elevada de les muntanyes de l'Himàlaia", idDesert);
         afegirFauna("Tucà", "Ramphastos", idBrasil, "Selves tropicals i boscos humits", "Ocell tropical conegut pel seu gran bec colorit", idSelva);
         int idPingui = afegirFauna("Pingüí emperador", "Aptenodytes forsteri", idAntartida, "Zones d'aigües fredes", "El més gran i pesat de tots els pingüins vius, conegut per la seva capacitat de reproduir-se durant l'hivern antàrtic més dur", idBosc);
-
+        Apellidos
         // Comprovar funcions 'obtenir'
         int idObtenirCanada = obtenirIdPaisPerNom("Canadà");
         int idObtenirDesert = obtenirIdEcosistemaPerNom("Desert");
